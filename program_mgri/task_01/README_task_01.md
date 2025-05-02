@@ -35,16 +35,16 @@
 - Ploty<br>
 - Git<br>
 
-### Установка
+### Установка (через терминал)
 
 1. **Клонируйте репозиторий:**
-Создаёт локальную копию проекта из GitHub на вашем компьютере.
+Создайте локальную копию проекта из GitHub на вашем компьютере.
 
 ```bash
-mkdir ~/git/matvey_mgri
-cd ~/git/matvey_mgri
-git clone https://github.com/MatVikZol/matvey_mgri.git
-cd matvey_mgri
+mkdir ~/git/matvey_mgri                                    # Создает папку для проекта
+cd ~/git/matvey_mgri                                       # Переход в папку
+git clone https://github.com/MatVikZol/matvey_mgri.git     # Загрузка проекта с репозитория GitHub
+cd matvey_mgri                                             # Переход в папку проекта
 ```
 
 2. Создайте и активируйте виртуальное окружение:
