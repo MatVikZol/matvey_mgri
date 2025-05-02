@@ -129,6 +129,7 @@ plt.savefig("graph_log3.png")
 
 ### Вариант 2: Интерактивный график (Plotly)
 ```python
+# Импортируем библиотеку NumPy для работы с массивами и математическими функциями **(если еще не импортировали)**
 import numpy as np
 import plotly.graph_objs as go
 import plotly.offline as pyo
