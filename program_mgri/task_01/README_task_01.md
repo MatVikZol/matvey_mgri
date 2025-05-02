@@ -41,13 +41,13 @@
 Создайте локальную копию проекта из GitHub на вашем компьютере.
 
 ```bash
-mkdir ~/git/matvey_mgri                                    # Создает папку для проекта
-cd ~/git/matvey_mgri                                       # Переход в папку
-git clone https://github.com/MatVikZol/matvey_mgri.git     # Загрузка проекта с репозитория GitHub
-cd matvey_mgri                                             # Переход в папку проекта
+mkdir -p ~/git                                             # Создание корневой папки для хранения всех проектов с GitHub на компьютере.
+cd ~/git                                                   # Переход в созданную папку
+git clone https://github.com/MatVikZol/matvey_mgri.git     # Загрузка (клонирование) проекта в папку с репозитория GitHub
+cd ~/matvey_mgri                                           # Переход в папку проекта 'matvey_mgri'
 ```
 
-2. Создайте и активируйте виртуальное окружение:
+2. Создайте и активируйте виртуальное окружение на вашем компьютере:
 ```bash
 python3 -m venv venv_mgri
 source venv_mgri/bin/activate
