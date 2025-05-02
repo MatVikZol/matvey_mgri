@@ -173,14 +173,16 @@ pyo.plot(fig, filename='interactive_log3.html')
 
 ### Построение графика через Jupyter Notebook
 
-1. Запустите сервер:
+1. Запустите сервер Jupyter Notebook:
 
 ```bash
 # Запускаем Jupyter Notebook- сервер
 # Откроется в браузере, где можно работать с файлами формата .ipynb
 jupyter notebook
 ```
+2. Перейдите по адресу `http://localhost:8888`
 
+   
 ### Построение графика через JupyterLab (расширенная среда)
 
 ```bash
