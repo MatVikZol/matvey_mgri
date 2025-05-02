@@ -127,7 +127,7 @@ plt.legend()
 plt.savefig("graph_log3.png")
 ```
 
-### Вариант 2: Интерактивный график (Plotly)
+### Построение интерактивного графика с сохранением в HTML (Plotly)
 ```python
 # Импортируем библиотеку NumPy для работы с массивами и математическими функциями (если еще не импортировали)
 import numpy as np
@@ -171,17 +171,20 @@ fig = go.Figure(data=[trace], layout=layout)
 pyo.plot(fig, filename='interactive_log3.html')
 ```
 
-### Вариант 3: Jupyter Notebook
+### Построение графика через Jupyter Notebook
 
 1. Запустите сервер:
 
 ```bash
+# Запускаем Jupyter Notebook- сервер
+# Откроется в браузере, где можно работать с файлами формата .ipynb
 jupyter notebook
 ```
 
-Или с JupyterLab:
+### Построение графика через JupyterLab (расширенная среда)
 
 ```bash
+# Запускаем JupyterLab - современный интерфейс с вкладками, терминалом и улучшенной навигацией
 jupyter lab
 ```
 
